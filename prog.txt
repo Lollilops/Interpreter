@@ -1,0 +1,24 @@
+struct ts {
+    int ab;
+    int ac;
+  };
+struct la{
+    string s0;
+};
+
+program
+{
+struct la str_a;
+struct ts ta, tb;
+  tb = str_a;
+  int a;
+  read(a);
+  ta.ab = 100;
+  ta.ac=10;
+  tb.ab =200;
+  tb.ac=20;
+  ta=tb;
+  writeln(ta.ab);
+  writeln(ta.ac);
+  write(a);
+}

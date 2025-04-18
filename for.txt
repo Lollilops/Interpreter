@@ -1,0 +1,13 @@
+program
+{int a;
+for (a=0; a<10; a+=1){
+    if(a == 3){
+        a+=1;
+        continue;
+    }
+    if(a > 6){
+        break;
+    }
+    write(a);
+}
+}

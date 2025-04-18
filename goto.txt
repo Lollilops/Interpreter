@@ -1,0 +1,10 @@
+program{
+    int a;
+    a=0;
+m:
+    if(a<5){
+        a=a+1;
+        write(a);
+        goto m;
+    }
+}

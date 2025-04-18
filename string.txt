@@ -1,0 +1,7 @@
+program{
+    string s0, s1;
+    s0 = "qwerty";
+    s1 = "123456";
+    s0 = s0 + s1;
+    write(s0);
+}
